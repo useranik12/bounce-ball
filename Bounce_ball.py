@@ -164,13 +164,13 @@ def start_game(event):
                     root.update()
                     time.sleep(0.01)
                     if ball.hit == 95:
-                        canvas.create_text(250, 250, text="YOU WON !!", fill="yellow", font="Calibri 24 ")
+                        canvas.create_text(250, 250, text="YOU WON THIS ROUND !!", fill="yellow", font="Calibri 24 ")
                         root.update_idletasks()
                         root.update()
                         playing = False
                         break
                 else:
-                    canvas.create_text(250, 250, text="GAME OVER!!", fill="red", font="Calibri 24 ")
+                    canvas.create_text(250, 250, text="OOO. GAME OVER!!", fill="red", font="Calibri 24 ")
                     root.update_idletasks()
                     root.update()
                     playing = False
