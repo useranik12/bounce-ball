@@ -3,7 +3,7 @@ import time
 import random
 
 root = Tk()
-root.title("Bounce Ball Game by Anik Pramanik")
+root.title("Bounce Ball Game")
 root.geometry("500x570")
 root.resizable(0, 0)
 root.wm_attributes("-topmost", 1)
